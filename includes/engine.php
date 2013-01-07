@@ -30,6 +30,8 @@ $pathtoclass = $SITE_PATH."includes/cms.class.php";
 /**********************************************************************************/
 session_name($session_name);
 session_start();
+date_default_timezone_set('Europe/London');
+
 
 // Set up the database, and load the CMS Class
 require_once($SITE_PATH.'includes/db.inc.php');
