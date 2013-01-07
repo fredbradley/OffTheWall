@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-07 13:11:48
+<?php /* Smarty version Smarty-3.1.11, created on 2013-01-07 12:24:17
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/admin_login.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:74429208350eabb84164a53-81407109%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:118465602450eabe71ca56a1-65382765%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '74429208350eabb84164a53-81407109',
+  'nocache_hash' => '118465602450eabe71ca56a1-65382765',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_50eabb841bc539_27973633',
+  'unifunc' => 'content_50eabe71d01c90_45654042',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_50eabb841bc539_27973633')) {function content_50eabb841bc539_27973633($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Login"), 0);?>
+<?php if ($_valid && !is_callable('content_50eabe71d01c90_45654042')) {function content_50eabe71d01c90_45654042($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Login"), 0);?>
 
 <body>
 	<!-- Top Panel -->

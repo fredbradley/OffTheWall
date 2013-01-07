@@ -16,7 +16,7 @@ $session_name = "offthewall"; // Must be all one word, lower case, with no space
 
 // SETTINGS
 $host = $_SERVER['SERVER_NAME'];
-if ($host == "offthewall.fredbradley.co.uk") {
+if ($host == "offthewall.fredb.me") {
 	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/";
 } elseif ($host == "admin.fredbradley.co.uk") {
 	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/";

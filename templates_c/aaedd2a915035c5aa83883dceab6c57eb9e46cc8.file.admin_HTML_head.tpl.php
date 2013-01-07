@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-07 13:11:48
+<?php /* Smarty version Smarty-3.1.11, created on 2013-01-07 13:01:18
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/admin_HTML_head.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:81586878750eabb841c0112-15640172%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21264795350eac71e4a80d4-76117834%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'aaedd2a915035c5aa83883dceab6c57eb9e46cc8' => 
     array (
       0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/admin_HTML_head.tpl',
-      1 => 1357547329,
+      1 => 1357562270,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '81586878750eabb841c0112-15640172',
+  'nocache_hash' => '21264795350eac71e4a80d4-76117834',
   'function' => 
   array (
   ),
@@ -21,15 +21,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_50eabb841c8af9_71000876',
+  'unifunc' => 'content_50eac71e4b0561_23589100',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_50eabb841c8af9_71000876')) {function content_50eabb841c8af9_71000876($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="en-US">
+<?php if ($_valid && !is_callable('content_50eac71e4b0561_23589100')) {function content_50eac71e4b0561_23589100($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="en-GB">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
- | TalentCow Admin</title>
+ | Off The Wall</title>
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

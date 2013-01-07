@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="en-GB">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{$title} | TalentCow Admin</title>
+	<title>{$title} | Off The Wall</title>
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
