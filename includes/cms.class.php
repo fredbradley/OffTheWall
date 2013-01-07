@@ -1,9 +1,9 @@
 <?php 
  /**
- * Talent Default Class
+ * CMS Default Class
  * ***************
  * Author: Fred Bradley <hello@fredbradley.co.uk>
- * Project: Talent Cow
+ * Project: CMS
  * Copyright: All Rights Resevered
  *
  * Description:  .
@@ -11,7 +11,7 @@
  * Note:  
  */
 
-	class TalentCow
+	class CMS
 	{
 		var $num_queries      = 0;
 		var $last_query       = null;
@@ -36,6 +36,10 @@
 	*  Functions */
 
 	function __construct() {
+	$connection = mysql_connect(DBHOST, DBUSER, DBPASS)
+            or die("Could not connect to the database:<br />" . mysql_error());
+        mysql_select_db(DBNAME, $connection) 
+            or die("Database error:<br />" . mysql_error());
 	}
 	
 	function refresh() {
@@ -43,11 +47,17 @@
 	}
 	
 	function getSettings() {
-	global $db;
-		$configs = $db->get_results("SELECT * FROM site_configs");
-		return $configs;
+		$configs = "SELECT * FROM ".DBPREFIX."site_configs";
+		$result = mysql_query($configs);
+		while($r = mysql_fetch_object($result)) {
+			$output[] = $r;
+		}
+		return $output;
 	}
 
+	function get_results($query) {
+	
+	}
 	function getUsers() {
 	global $db;
 		$users = $db->get_results("SELECT * FROM users");
