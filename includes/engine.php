@@ -21,7 +21,7 @@ if ($host == "offthewall.fredbradley.co.uk") {
 } elseif ($host == "admin.fredbradley.co.uk") {
 	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/";
 } else {
-	$SITE_PATH = "/Users/fredbradley/Sites/offthewall.com.au/doc_root";
+	$SITE_PATH = "/Users/fredbradley/Sites/offthewall.com.au/doc_root/";
 }
 
 $pathtoclass = $SITE_PATH."includes/cms.class.php"; 
