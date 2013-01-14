@@ -2367,8 +2367,22 @@
 	#pattern6 {
 		background: url("/assets/images/Patterns/pattern6.png") no-repeat 0 0;
 	}
-
+/*
 .logo img {
 	margin:auto;
 	text-align:center;
 	}
+*/
+.otwlogo img {
+	margin:auto;
+	text-align: center;
+	display: block;
+	width: 100%;
+	}
+div.heading h2 {
+	border-bottom: 2px solid #000;
+}
+
+body {
+background: none;
+background: #fff;}
