@@ -2380,9 +2380,13 @@
 	width: 100%;
 	}
 div.heading h2 {
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid #8f8f8f;
+	color: #8f8f8f;
 }
 
 body {
 background: none;
 background: #fff;}
+p.label.c {
+	text-align: center;
+	}
