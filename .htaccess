@@ -1,1 +1,4 @@
 RewriteEngine On
+
+Redirect /dev http://offthewall.fredb.me
+Redirect /live http://admin.fredbradley.co.uk/offthewall.com.au/doc_root/
