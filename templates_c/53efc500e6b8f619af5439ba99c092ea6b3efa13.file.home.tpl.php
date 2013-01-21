@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-21 11:46:06
-         compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:168728558350fd2a7e723278-61119161%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.11, created on 2013-01-21 15:26:23
+         compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/home.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:149256991550fd5e1f4d31e2-64900133%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '15df91974f2386c378f79b2e3caea2099bf61bce' => 
+    '53efc500e6b8f619af5439ba99c092ea6b3efa13' => 
     array (
-      0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/home.tpl',
+      0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/home.tpl',
       1 => 1358506751,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '168728558350fd2a7e723278-61119161',
+  'nocache_hash' => '149256991550fd5e1f4d31e2-64900133',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_50fd2a7e769a87_97636003',
+  'unifunc' => 'content_50fd5e1f5cf162_60885973',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_50fd2a7e769a87_97636003')) {function content_50fd2a7e769a87_97636003($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Off The Wall Example"), 0);?>
+<?php if ($_valid && !is_callable('content_50fd5e1f5cf162_60885973')) {function content_50fd5e1f5cf162_60885973($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Off The Wall Example"), 0);?>
 
 <body>
 	<div class="wrapper contents_wrapper">

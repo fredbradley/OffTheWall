@@ -17,9 +17,9 @@ $session_name = "offthewall"; // Must be all one word, lower case, with no space
 // SETTINGS
 $host = $_SERVER['SERVER_NAME'];
 if ($host == "offthewall.fredb.me") {
-	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/";
-} elseif ($host == "admin.fredbradley.co.uk") {
-	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/";
+	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/";
+} elseif ($host == "dev.offthewall.com.au") {
+	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/";
 } else {
 	$SITE_PATH = "/Users/fredbradley/Sites/offthewall.com.au/doc_root/";
 }

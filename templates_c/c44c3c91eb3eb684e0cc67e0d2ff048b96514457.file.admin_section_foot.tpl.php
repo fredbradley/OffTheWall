@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-21 11:46:06
-         compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/admin_section_foot.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:153044583850fd2a7e777ed5-17127675%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.11, created on 2013-01-21 15:26:23
+         compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/admin_section_foot.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:101412475950fd5e1f62a7b5-17538517%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'd86c0605fbfc29502c63d5321bd1eca0368f27f6' => 
+    'c44c3c91eb3eb684e0cc67e0d2ff048b96514457' => 
     array (
-      0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/templates/admin_section_foot.tpl',
+      0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/admin_section_foot.tpl',
       1 => 1358506751,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '153044583850fd2a7e777ed5-17127675',
+  'nocache_hash' => '101412475950fd5e1f62a7b5-17538517',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_50fd2a7e77bd83_37596385',
+  'unifunc' => 'content_50fd5e1f650b03_82232631',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_50fd2a7e77bd83_37596385')) {function content_50fd2a7e77bd83_37596385($_smarty_tpl) {?>	<footer>
+<?php if ($_valid && !is_callable('content_50fd5e1f650b03_82232631')) {function content_50fd5e1f650b03_82232631($_smarty_tpl) {?>	<footer>
 		<div class="wrapper">
 			<span class="copyright">
 			<!-- Template by:	COPYRIGHT © 2012 Mahieddine Abd-kader -->
