@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-18 10:54:49
+<?php /* Smarty version Smarty-3.1.11, created on 2013-01-21 10:39:23
          compiled from "/Users/fredbradley/Sites/offthewall.com.au/doc_root/templates/home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7965355650f929f966c256-85403282%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:179871320450fd1adb033ba8-67863978%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7965355650f929f966c256-85403282',
+  'nocache_hash' => '179871320450fd1adb033ba8-67863978',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_50f929f9696e31_08148287',
+  'unifunc' => 'content_50fd1adb0633c5_47890994',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_50f929f9696e31_08148287')) {function content_50f929f9696e31_08148287($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Off The Wall Example"), 0);?>
+<?php if ($_valid && !is_callable('content_50fd1adb0633c5_47890994')) {function content_50fd1adb0633c5_47890994($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Off The Wall Example"), 0);?>
 
 <body>
 	<div class="wrapper contents_wrapper">

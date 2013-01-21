@@ -5,6 +5,12 @@
 
 /* Import Some CSS Files */
 
+@font-face {
+	font-family: offthewall;
+	src: url('futuratligro1.ttf');
+}
+
+
 @import "normalize.css";
 @import "tipsy.css";
 @import "colorpicker.css";
@@ -2380,6 +2386,7 @@
 	width: 100%;
 	}
 div.heading h2 {
+	font-family: offthewall;
 	border-bottom: 2px solid #8f8f8f;
 	color: #8f8f8f;
 }
