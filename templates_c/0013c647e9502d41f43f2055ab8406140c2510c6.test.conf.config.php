@@ -11,7 +11,9 @@
   ),
   'vars' => 
   array (
-    'title' => 'Welcome to Smarty!',
+    'title' => 'Off The Wall Group',
+    'keywords' => 'Off The Wall, Sydney, Production, Australia',
+    'description' => 'Off The Wall Group - More Coming Soon!',
     'cutoff_size' => 40,
   ),
 ); ?>

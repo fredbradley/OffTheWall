@@ -2393,7 +2393,16 @@ div.heading h2 {
 
 body {
 background: none;
-background: #fff;}
+background: #fff;
+}
 p.label.c {
 	text-align: center;
 	}
+div.bottom {
+	clear:both;
+	padding-top:100px;
+}
+.bottom div.fredsbit {
+	clear:both;
+	border-top: 2px solid #8f8f8f;
+}

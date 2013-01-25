@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-25 14:43:05
+<?php /* Smarty version Smarty-3.1.11, created on 2013-01-25 15:48:03
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:691620239510299f9a44765-61717855%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14734487265102a933ddab16-87540080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '53efc500e6b8f619af5439ba99c092ea6b3efa13' => 
     array (
       0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/home.tpl',
-      1 => 1359107645,
+      1 => 1359128881,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '691620239510299f9a44765-61717855',
+  'nocache_hash' => '14734487265102a933ddab16-87540080',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_510299f9a8de41_24722883',
+  'unifunc' => 'content_5102a933e2cc67_95040882',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_510299f9a8de41_24722883')) {function content_510299f9a8de41_24722883($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Off The Wall Example"), 0);?>
+<?php if ($_valid && !is_callable('content_5102a933e2cc67_95040882')) {function content_5102a933e2cc67_95040882($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Coming Soon"), 0);?>
 
 <body>
 	<div class="wrapper contents_wrapper">
@@ -62,9 +62,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="g_12">
 			<p class="label c">hello@offthewall.com.au</p>
 		</div>
-	</div>
-	
-	
+	</div>	
 <?php echo $_smarty_tpl->getSubTemplate ("admin_section_foot.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <?php }} ?>

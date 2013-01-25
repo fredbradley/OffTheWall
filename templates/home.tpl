@@ -1,4 +1,4 @@
-{include file="admin_HTML_head.tpl" title="Off The Wall Example"}
+{include file="admin_HTML_head.tpl" title="Coming Soon"}
 <body>
 	<div class="wrapper contents_wrapper">
 		<div class="g_12 otwlogo">
@@ -40,7 +40,5 @@
 		<div class="g_12">
 			<p class="label c">hello@offthewall.com.au</p>
 		</div>
-	</div>
-	
-	
+	</div>	
 {include file="admin_section_foot.tpl"}
