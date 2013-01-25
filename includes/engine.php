@@ -20,6 +20,8 @@ if ($host == "offthewall.fredb.me") {
 	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/";
 } elseif ($host == "dev.offthewall.com.au") {
 	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/";
+} elseif ($host == "offthewall.com.au") {
+	$SITE_PATH = "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/doc_root/";
 } else {
 	$SITE_PATH = "/Users/fredbradley/Sites/offthewall.com.au/doc_root/";
 }

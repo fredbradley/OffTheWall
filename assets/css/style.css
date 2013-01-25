@@ -2390,7 +2390,13 @@ div.heading h2 {
 	border-bottom: 2px solid #8f8f8f;
 	color: #8f8f8f;
 }
-
+div.comingsoon h2 {
+	font-family: offthewall;
+	text-align:center;
+}
+.label.offthewall {
+	font-family: offthewall;
+}
 body {
 background: none;
 background: #fff;
@@ -2404,5 +2410,5 @@ div.bottom {
 }
 .bottom div.fredsbit {
 	clear:both;
-	border-top: 2px solid #8f8f8f;
+//	border-top: 2px solid #8f8f8f;
 }
