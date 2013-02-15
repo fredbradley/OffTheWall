@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-25 15:48:03
+<?php /* Smarty version Smarty-3.1.11, created on 2013-02-15 08:59:20
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/admin_HTML_head.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16615739505102a933e30c93-02246533%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:629023295511df8e84fb269-05281899%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'aabd0e0f5968cc5710aaec77090b133bcc64f10f' => 
     array (
       0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/admin_HTML_head.tpl',
-      1 => 1359127067,
+      1 => 1359133175,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16615739505102a933e30c93-02246533',
+  'nocache_hash' => '629023295511df8e84fb269-05281899',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_5102a933f2e215_41474235',
+  'unifunc' => 'content_511df8e8565112_17690573',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5102a933f2e215_41474235')) {function content_5102a933f2e215_41474235($_smarty_tpl) {?><?php  $_config = new Smarty_Internal_Config("test.conf", $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
+<?php if ($_valid && !is_callable('content_511df8e8565112_17690573')) {function content_511df8e8565112_17690573($_smarty_tpl) {?><?php  $_config = new Smarty_Internal_Config("test.conf", $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head profile="http://gmpg.org/xfn/11" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
@@ -37,7 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<title><?php if (!empty($_smarty_tpl->tpl_vars['title']->value)){?><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
  | <?php }?><?php echo $_smarty_tpl->getConfigVariable('title');?>
 </title>
-		<link rel="icon" href="/assets//favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
 		<link rel='canonical' href='http://www.offthewall.com.au/' />
 
 	<!-- Open The Graph... -->
@@ -51,8 +51,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " />
 		<meta property="fb:admins" 		content="500260393" />
 		<meta property="og:image" 		content="http://dev.offthewall.com.au/assets/images/OffTheWall/OTWGroupLogoLarge.png">
-		<meta property="og:type" 		content="website" />
-		<meta property="og:email" 		content="hello@offthewall.com.au" />
+		<meta property="og:type" 		content="blog" />
+		<meta property="og:email" 		content="<?php echo $_smarty_tpl->getConfigVariable('email');?>
+" />
 		<meta property="og:description"		content="<?php echo $_smarty_tpl->getConfigVariable('description');?>
 " />
 
@@ -61,7 +62,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="apple-touch-startup-image" href="" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
-	
+
+	<!-- Cache me if you can! (Don't actually!) -->
+                <meta content="no-cache" http-equiv="cache-control" />
+		<meta content="no-cache" http-equiv="pragma" />	
+
 	<!-- Generic Meta Info -->
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<meta name="copyright" content="&copy; Fred Bradley" />
@@ -71,17 +76,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " />
 		<meta name="Title" content="<?php echo $_smarty_tpl->getConfigVariable('title');?>
 " />
+		<link rel="author" href="https://plus.google.com/111133901586156007045/" />
+		<meta name="Author" content="Off The Wall Group, <?php echo $_smarty_tpl->getConfigVariable('email');?>
+" />
+		<meta name="contact" content="<?php echo $_smarty_tpl->getConfigVariable('email');?>
+" />
 
 	<!-- Twitter Meta Info -->
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@fredbradley" />
 		<meta name="twitter:creator" content="@fredbradley" />
-		<meta name="twitter:description" content="My Wonderful Description" />
+		<meta name="twitter:description" content="<?php echo $_smarty_tpl->getConfigVariable('description');?>
+" />
 
 	<!-- Give me some Google Juice -->
 		<meta name="google-site-verification" content="QyJlf6JilqxEk3-312pZGTJB8lPGOUXFkB8OPg7193U" />
 		<meta name="robots" content="index,follow" />
-		<meta name="last-updated" content="" />
+		<meta name="last-updated" content="2013-01-26T10:10:10+11:00" />
 		<meta name="priority" content="0.5" />
 		<meta name="change-freq" content="monthly" />
 	

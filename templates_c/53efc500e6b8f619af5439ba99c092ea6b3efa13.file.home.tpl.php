@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-25 15:48:03
+<?php /* Smarty version Smarty-3.1.11, created on 2013-02-15 08:59:20
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14734487265102a933ddab16-87540080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1371530239511df8e84a03a4-46050731%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '53efc500e6b8f619af5439ba99c092ea6b3efa13' => 
     array (
       0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/dev_root/templates/home.tpl',
-      1 => 1359128881,
+      1 => 1359128949,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14734487265102a933ddab16-87540080',
+  'nocache_hash' => '1371530239511df8e84a03a4-46050731',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_5102a933e2cc67_95040882',
+  'unifunc' => 'content_511df8e84f6720_44748505',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5102a933e2cc67_95040882')) {function content_5102a933e2cc67_95040882($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Coming Soon"), 0);?>
+<?php if ($_valid && !is_callable('content_511df8e84f6720_44748505')) {function content_511df8e84f6720_44748505($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("admin_HTML_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Coming Soon"), 0);?>
 
 <body>
 	<div class="wrapper contents_wrapper">

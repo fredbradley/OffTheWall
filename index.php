@@ -2,5 +2,5 @@
 error_reporting(E_ALL);
 
 require_once('includes/engine.php');
-$smarty->display('comingsoon.tpl');
+$smarty->display('home.tpl');
 ?>
