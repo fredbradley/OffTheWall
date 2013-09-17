@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-09-17 07:53:14
+<?php /* Smarty version Smarty-3.1.11, created on 2013-09-17 07:56:31
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/doc_root/templates/admin_section_foot.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16330879485237fc5a36e429-24080559%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9346715255237fd1f1d8547-77466666%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16330879485237fc5a36e429-24080559',
+  'nocache_hash' => '9346715255237fd1f1d8547-77466666',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_5237fc5a3819c0_55172604',
+  'unifunc' => 'content_5237fd1f1eb698_34185161',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5237fc5a3819c0_55172604')) {function content_5237fc5a3819c0_55172604($_smarty_tpl) {?><?php  $_config = new Smarty_Internal_Config("test.conf", $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
+<?php if ($_valid && !is_callable('content_5237fd1f1eb698_34185161')) {function content_5237fd1f1eb698_34185161($_smarty_tpl) {?><?php  $_config = new Smarty_Internal_Config("test.conf", $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
 
 	<div class="bottom">
 		<div class="wrapper fredsbit">

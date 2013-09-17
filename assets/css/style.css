@@ -2412,3 +2412,6 @@ div.bottom {
 	clear:both;
 //	border-top: 2px solid #8f8f8f;
 }
+p.label.c.offthewall a {
+	color:#8f8f8f;
+}
