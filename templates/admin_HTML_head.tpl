@@ -18,7 +18,7 @@
 		<meta property="og:url" 		content="http://{$smarty.server.HTTP_HOST}{$smarty.server.REQUEST_URI}" />
 		<meta property="og:site_name"   	content="{#title#}" />
 		<meta property="fb:admins" 		content="500260393" />
-		<meta property="og:image" 		content="http://dev.offthewall.com.au/assets/images/OffTheWall/OTWGroupLogoLarge.png">
+		<meta property="og:image" 		content="http://www.offthewall.com.au/assets/images/OffTheWall/OTWGroupLogoOG.png">
 		<meta property="og:type" 		content="blog" />
 		<meta property="og:email" 		content="{#email#}" />
 		<meta property="og:description"		content="{#description#}" />
@@ -112,3 +112,4 @@
 	// End: Google Analytics
 	</script>
 </head>
+<!-- End Head Template -->

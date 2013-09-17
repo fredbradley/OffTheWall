@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-01-25 16:57:54
+<?php /* Smarty version Smarty-3.1.11, created on 2013-09-17 07:53:14
          compiled from "/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/doc_root/templates/admin_HTML_head.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17261476955102b9920755c2-64294402%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12226125237fc5a2cd736-96296563%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '99f1b4361a291af3fae157f3293919e931424224' => 
     array (
       0 => '/kunden/homepages/3/d298570323/htdocs/offthewall.com.au/doc_root/templates/admin_HTML_head.tpl',
-      1 => 1359132864,
+      1 => 1379400305,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17261476955102b9920755c2-64294402',
+  'nocache_hash' => '12226125237fc5a2cd736-96296563',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_5102b9920ed161_57899077',
+  'unifunc' => 'content_5237fc5a33d582_99433414',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5102b9920ed161_57899077')) {function content_5102b9920ed161_57899077($_smarty_tpl) {?><?php  $_config = new Smarty_Internal_Config("test.conf", $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
+<?php if ($_valid && !is_callable('content_5237fc5a33d582_99433414')) {function content_5237fc5a33d582_99433414($_smarty_tpl) {?><?php  $_config = new Smarty_Internal_Config("test.conf", $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head profile="http://gmpg.org/xfn/11" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
@@ -50,7 +50,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<meta property="og:site_name"   	content="<?php echo $_smarty_tpl->getConfigVariable('title');?>
 " />
 		<meta property="fb:admins" 		content="500260393" />
-		<meta property="og:image" 		content="http://dev.offthewall.com.au/assets/images/OffTheWall/OTWGroupLogoLarge.png">
+		<meta property="og:image" 		content="http://www.offthewall.com.au/assets/images/OffTheWall/OTWGroupLogoOG.png">
 		<meta property="og:type" 		content="blog" />
 		<meta property="og:email" 		content="<?php echo $_smarty_tpl->getConfigVariable('email');?>
 " />
@@ -152,4 +152,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	// End: Google Analytics
 	</script>
 </head>
+<!-- End Head Template -->
 <?php }} ?>
