@@ -31,25 +31,33 @@
 		var $sql_log_file     = false;
 		var $do_profile       = false;
 		var $profile_times    = array();
+		var $db;
 
 	/**********************************************************************
 	*  Functions */
 
 	function __construct() {
-	$connection = mysql_connect(DBHOST, DBUSER, DBPASS)
-            or die("Could not connect to the database:<br />" . mysql_error());
-        mysql_select_db(DBNAME, $connection) 
-            or die("Database error:<br />" . mysql_error());
+   			$this->db = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
+	
+			if (mysqli_connect_errno()) {
+				printf("Connect failed: %s\n", mysqli_connect_error());
+				exit();
+			}
 	}
 	
+	function __destruct() {
+		mysqli_close($this->db);
+	}
 	function refresh() {
 		header("Location: ".$_SERVER['HTTP_REFERER']);
 	}
 	
 	function getSettings() {
+		
 		$configs = "SELECT * FROM ".DBPREFIX."site_configs";
-		$result = mysql_query($configs);
-		while($r = mysql_fetch_object($result)) {
+		$result = $this->db->query($configs) or die($mysqli->error.__LINE__);
+		
+		while($r = $result->fetch_object()) {
 			$output[] = $r;
 		}
 		return $output;
